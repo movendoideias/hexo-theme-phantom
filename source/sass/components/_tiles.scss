@@ -13,7 +13,7 @@
 
 		@include vendor('display', 'flex');
 		@include vendor('flex-wrap', 'wrap');
-		postiion: relative;
+		position: relative;
 		margin: ($gutter * -1) 0 0 ($gutter * -1);
 
 		article {
@@ -47,6 +47,7 @@
 					content: '';
 					display: block;
 					position: absolute;
+					background-color: rgba(0, 0, 0, 0.4);
 					top: 0;
 					left: 0;
 					width: 100%;
@@ -123,42 +124,6 @@
 					> :last-child {
 						margin-bottom: 0;
 					}
-				}
-			}
-
-			&.style1, &.style9 {
-				> .image:before {
-					background-color: _palette(accent1);
-				}
-			}
-
-			&.style2, &.style7 {
-				> .image:before {
-					background-color: _palette(accent2);
-				}
-			}
-
-			&.style3, &.style8 {
-				> .image:before {
-					background-color: _palette(accent3);
-				}
-			}
-
-			&.style4, &.style12 {
-				> .image:before {
-					background-color: _palette(accent4);
-				}
-			}
-
-			&.style5, &.style10 {
-				> .image:before {
-					background-color: _palette(accent5);
-				}
-			}
-
-			&.style6, &.style11 {
-				> .image:before {
-					background-color: _palette(accent6);
 				}
 			}
 

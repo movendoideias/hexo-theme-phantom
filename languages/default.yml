@@ -1,5 +1,5 @@
-prev: Older Posts
-next: Newer Posts
-comment: Comments
-archive_a: Archives
-archive_b: "Archives: %s"
+prev: Posts Antigos
+next: Posts Recentes
+comment: Comentários
+archive_a: Posts
+archive_b: "Posts: %s"
